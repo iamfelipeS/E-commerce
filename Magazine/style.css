@@ -1,0 +1,13 @@
+#card-produto-1 img,
+#card-produto-2 img,
+#card-produto-3 img{ 
+    height: 200px;   
+}
+
+.btn-add{
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
