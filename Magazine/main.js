@@ -61,14 +61,14 @@ const catalog = [
 ]
 
 for (const productCatalog of catalog) {
-  
-  const productCard = `
-      <div id="card-produto-1">
-      <img 
-          src = "./assets/img/${productCatalog.img}"
-          alt = "img-produto" 
-      />
-      <p>${productCatalog.brand}</p>
+
+  const productCard = `<div class="border-solid border-2 border-sky-500">
+  <img 
+  src = "./assets/img/${productCatalog.img}"
+  alt = "img-produto" 
+  style = "height: 300px;"
+  />
+      <p class='marca'>${productCatalog.brand}</p>
       <p>${productCatalog.name}</p>
       <p>R$ ${productCatalog.price}</p>
       <button class="btn-add">Adicionar</button>
